@@ -1,0 +1,45 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 400px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'roboto';
+  font-size: 35px;
+}
+
+.description {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+
+.caption {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-style: initial;
+}
+
+.button {
+  border-width: 0px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
